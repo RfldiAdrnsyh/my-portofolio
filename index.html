@@ -10,18 +10,19 @@
 </head>
 <body>
 
+<!-- ===== NAV: tab bar ala IDE ===== -->
 <header class="tabbar" id="tabbar">
-    <div class="tabbar-left">
-        <span class="dot dot-red"></span>
-        <span class="dot dot-yellow"></span>
-        <span class="dot dot-green"></span>
-    </div>
-    <nav class="tabs">
-        <a href="#about" class="tab active" data-tab="About.java">About<span class="ext">.java</span></a>
-        <a href="#skills" class="tab" data-tab="Skills.java">Skills<span class="ext">.java</span></a>
-        <a href="#projects" class="tab" data-tab="Projects.java">Projects<span class="ext">.java</span></a>
-        <a href="#contact" class="tab" data-tab="Contact.java">Contact<span class="ext">.java</span></a>
-    </nav>
+  <div class="tabbar-left">
+    <span class="dot dot-red"></span>
+    <span class="dot dot-yellow"></span>
+    <span class="dot dot-green"></span>
+  </div>
+  <nav class="tabs">
+    <a href="#about" class="tab active" data-tab="About.html">About<span class="ext">.html</span></a>
+    <a href="#skills" class="tab" data-tab="Skills.html">Skills<span class="ext">.html</span></a>
+    <a href="#projects" class="tab" data-tab="Projects.html">Projects<span class="ext">.html</span></a>
+    <a href="#contact" class="tab" data-tab="Contact.html">Contact<span class="ext">.html</span></a>
+  </nav>
 </header>
 
 <!-- ===== HERO: terminal ===== -->
@@ -40,9 +41,9 @@
     </div>
   </div>
   <div class="hero-text">
-    <p class="eyebrow">// Software Engineering Student</p>
+    <p class="eyebrow">// Web Developer in Progress</p>
     <h1>Rifaldi <span class="accent">Adriansyah</span></h1>
-    <p class="hero-desc">Mahasiswa TRPL Politeknik Mardira Indonesia yang suka ngebongkar logika OOP, database, dan ngutak-atik Java sampai jalan dengan benar.</p>
+    <p class="hero-desc">Mahasiswa TRPL Politeknik Mardira Indonesia yang fokus mengembangkan website dengan HTML, CSS, dan JavaScript, serta merancang database dengan SQL. Saat ini juga terus mempelajari Java melalui project-project perkuliahan.</p>
     <div class="hero-buttons">
       <a href="#projects" class="btn btn-primary">Lihat Project</a>
       <a href="cv-rifaldi-adriansyah.pdf" class="btn btn-ghost" download>Unduh CV</a>
@@ -52,66 +53,77 @@
 
 <!-- ===== ABOUT ===== -->
 <section id="about" class="section">
-  <p class="section-label">01 // About.java</p>
+  <p class="section-label">01 // About.html</p>
   <div class="about-grid">
     <div class="about-text">
-      <h2>Belajar dengan cara <span class="accent">ngerjain langsung</span></h2>
+      <h2>Belajar dengan <span class="accent">praktik langsung</span></h2>
       <p>Saya mahasiswa Teknik Rekayasa Perangkat Lunak (TRPL) di Politeknik Mardira Indonesia. Fokus utama saya ada di pemrograman berorientasi objek (OOP), perancangan database, dan pengembangan aplikasi desktop maupun web.</p>
-      <p>Saya percaya paham itu beda sama sekadar "kelar". Karena itu saya selalu coba ngetik ulang kode sendiri, debug pelan-pelan, dan pastikan saya bisa jelasin logikanya — bukan cuma submit tugas yang jalan.</p>
+      <p>Bagi saya, memahami suatu konsep berbeda dengan sekadar menyelesaikan tugas. Karena itu, saya membiasakan menulis ulang kode secara mandiri, melakukan debugging secara bertahap, dan memastikan saya benar-benar memahami logikanya — bukan hanya menyerahkan tugas yang kebetulan berjalan.</p>
     </div>
     <div class="about-card">
       <div class="card-row"><span class="card-key">role</span><span class="card-val">Software Engineering Student</span></div>
       <div class="card-row"><span class="card-key">kampus</span><span class="card-val">Politeknik Mardira Indonesia</span></div>
       <div class="card-row"><span class="card-key">jurusan</span><span class="card-val">TRPL</span></div>
-      <div class="card-row"><span class="card-key">fokus</span><span class="card-val">Java · OOP · MySQL</span></div>
-      <div class="card-row"><span class="card-key">minat</span><span class="card-val"> UI Desktop</span></div>
+      <div class="card-row"><span class="card-key">fokus</span><span class="card-val">HTML/CSS/JS · SQL</span></div>
+      <div class="card-row"><span class="card-key">sedang dipelajari</span><span class="card-val">Java · OOP</span></div>
+      <div class="card-row"><span class="card-key">minat</span><span class="card-val">Game Dev · UI Desktop</span></div>
     </div>
   </div>
 </section>
 
 <!-- ===== SKILLS ===== -->
 <section id="skills" class="section section-alt">
-  <p class="section-label">02 // Skills.java</p>
+  <p class="section-label">02 // Skills.html</p>
   <h2>Stack yang sering dipakai</h2>
   <div class="skills-grid">
     <div class="skill-card">
-      <p class="skill-type">// language</p>
-      <h3>Java</h3>
-      <div class="bar"><div class="bar-fill" style="--w:88%"></div></div>
-    </div>
-    <div class="skill-card">
-      <p class="skill-type">// language</p>
-      <h3>SQL</h3>
+      <p class="skill-type">// frontend</p>
+      <h3>HTML / CSS / JS</h3>
       <div class="bar"><div class="bar-fill" style="--w:80%"></div></div>
     </div>
     <div class="skill-card">
-      <p class="skill-type">// frontend</p>
-      <h3>HTML / CSS / JS</h3>
-      <div class="bar"><div class="bar-fill" style="--w:75%"></div></div>
+      <p class="skill-type">// database</p>
+      <h3>SQL</h3>
+      <div class="bar"><div class="bar-fill" style="--w:78%"></div></div>
     </div>
     <div class="skill-card">
       <p class="skill-type">// tools</p>
       <h3>MySQL / phpMyAdmin</h3>
-      <div class="bar"><div class="bar-fill" style="--w:78%"></div></div>
-    </div>
-    <div class="skill-card">
-      <p class="skill-type">// IDE</p>
-      <h3>IntelliJ IDEA</h3>
-      <div class="bar"><div class="bar-fill" style="--w:82%"></div></div>
+      <div class="bar"><div class="bar-fill" style="--w:75%"></div></div>
     </div>
     <div class="skill-card">
       <p class="skill-type">// concept</p>
       <h3>OOP (4 pilar)</h3>
-      <div class="bar"><div class="bar-fill" style="--w:90%"></div></div>
+      <div class="bar"><div class="bar-fill" style="--w:65%"></div></div>
+    </div>
+    <div class="skill-card">
+      <p class="skill-type">// language, sedang dipelajari</p>
+      <h3>Java</h3>
+      <div class="bar"><div class="bar-fill" style="--w:55%"></div></div>
+    </div>
+    <div class="skill-card">
+      <p class="skill-type">// IDE</p>
+      <h3>IntelliJ IDEA</h3>
+      <div class="bar"><div class="bar-fill" style="--w:60%"></div></div>
     </div>
   </div>
 </section>
 
 <!-- ===== PROJECTS ===== -->
 <section id="projects" class="section">
-  <p class="section-label">03 // Projects.java</p>
-  <h2>Project yang udah dikerjain</h2>
+  <p class="section-label">03 // Projects.html</p>
+  <h2>Project yang telah dikerjakan</h2>
   <div class="projects-grid">
+
+    <article class="project-card">
+      <div class="project-head">
+        <span class="file-icon">💌</span>
+        <span class="file-name">BirthdayWebsite.html</span>
+      </div>
+      <h3>Romantic Birthday Website</h3>
+      <p>Website personal sebagai hadiah ulang tahun, dibangun dengan struktur HTML/CSS/JS terpisah dan di-deploy melalui Netlify.</p>
+      <div class="tags"><span>HTML</span><span>CSS</span><span>JavaScript</span></div>
+    </article>
 
     <article class="project-card">
       <div class="project-head">
@@ -119,7 +131,7 @@
         <span class="file-name">AplikasiKasir.java</span>
       </div>
       <h3>Aplikasi Kasir Restoran</h3>
-      <p>Desktop POS pakai Java Swing dengan MySQL/MariaDB. Ada autentikasi login, manajemen menu, dan transaksi kasir.</p>
+      <p>Aplikasi desktop POS dengan Java Swing dan database MySQL/MariaDB, mencakup autentikasi login, manajemen menu, dan pencatatan transaksi. Project ini menjadi sarana utama saya belajar Java dan OOP secara langsung.</p>
       <div class="tags"><span>Java Swing</span><span>MySQL</span><span>phpMyAdmin</span></div>
     </article>
 
@@ -129,7 +141,7 @@
         <span class="file-name">SistemBengkelMotor.java</span>
       </div>
       <h3>SBM — Sistem Bengkel Motor</h3>
-      <p>Project tim UTS: aplikasi Java Swing 6 frame dengan login berbasis peran (role-based) dan database MySQL.</p>
+      <p>Project tim untuk UTS: aplikasi Java Swing dengan 6 frame, sistem login berbasis peran (role-based), dan database MySQL.</p>
       <div class="tags"><span>Java Swing</span><span>MySQL</span><span>OOP</span></div>
     </article>
 
@@ -139,18 +151,8 @@
         <span class="file-name">SiMoto.java</span>
       </div>
       <h3>SiMoto v1</h3>
-      <p>Console app bengkel motor pakai struktur OOP murni — project belajar mandiri sekaligus tugas kuliah.</p>
+      <p>Aplikasi console bengkel motor dengan struktur OOP, dikembangkan sebagai latihan mandiri sekaligus tugas perkuliahan.</p>
       <div class="tags"><span>Java</span><span>Console App</span><span>OOP</span></div>
-    </article>
-
-    <article class="project-card">
-      <div class="project-head">
-        <span class="file-icon">💌</span>
-        <span class="file-name">BirthdayWebsite.html</span>
-      </div>
-      <h3>Romantic Birthday Website</h3>
-      <p>Website hadiah ulang tahun personal untuk pasangan, dibangun dengan HTML/CSS/JS terpisah dan dideploy via Netlify.</p>
-      <div class="tags"><span>HTML</span><span>CSS</span><span>JavaScript</span></div>
     </article>
 
   </div>
@@ -158,12 +160,12 @@
 
 <!-- ===== CONTACT ===== -->
 <section id="contact" class="section section-alt">
-  <p class="section-label">04 // Contact.java</p>
-  <h2>Mau kolaborasi atau ngobrol project?</h2>
-  <p class="contact-desc">Terbuka buat diskusi seputar Java, database, atau sekadar ngobrolin project kuliah.</p>
+  <p class="section-label">04 // Contact.html</p>
+  <h2>Tertarik berkolaborasi atau membahas sebuah project?</h2>
+  <p class="contact-desc">Terbuka untuk diskusi seputar Java, database, atau project perkuliahan.</p>
   <div class="contact-buttons">
-    <a href="mailto:rifaldiadriansyah11@gmail.com" class="btn btn-primary">Kirim Email</a>
-    <a href="https://github.com/RfldiAdrnsyh" class="btn btn-ghost" target="_blank" rel="noopener">GitHub</a>
+    <a href="mailto:rifaldi.email@example.com" class="btn btn-primary">Kirim Email</a>
+    <a href="https://github.com/" class="btn btn-ghost" target="_blank" rel="noopener">GitHub</a>
   </div>
 </section>
 
@@ -171,6 +173,6 @@
   <p>// Rifaldi Adriansyah — NIM 2501010107 — Politeknik Mardira Indonesia</p>
 </footer>
 
-<script src="assets/js/script.js"></script>
+<script src="script.js"></script>
 </body>
 </html>

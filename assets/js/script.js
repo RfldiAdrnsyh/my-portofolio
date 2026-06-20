@@ -1,8 +1,8 @@
 // ===== Typing effect di terminal hero =====
 const lines = [
   "Rifaldi Adriansyah",
-  "Software Engineering Student",
-  "Java · OOP · MySQL Enthusiast"
+  "Web Developer in Progress",
+  "HTML · CSS · JS · SQL"
 ];
 
 const typedLineEl = document.getElementById("typedLine");
